@@ -1,0 +1,19 @@
+.banner{
+    background: url('../img/fundo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+ .perfil{
+    border-radius: 50%;
+    border-color: white solid 0.5rem ;
+    height: 20rem;
+    width: 20rem;
+ }
+@media (max-width: 575.98px) { 
+    .banner{
+        background-position: right;
+        height: 100vh;
+    }
+ }
