@@ -1,5 +1,5 @@
 .banner{
-    background: url('../img/fundo.jpg');
+    background: url('../img/fundonovo.gif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,8 +8,8 @@
  .perfil{
     border-radius: 50%;
     border-color: white solid 0.5rem ;
-    height: 20rem;
-    width: 20rem;
+    height: 16rem;
+    width: 16rem;
  }
 @media (max-width: 575.98px) { 
     .banner{
