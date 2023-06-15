@@ -16,7 +16,7 @@
     font-family: 'Courier New', Courier, monospace;
     color: beige;
  }
- .col{
+ .col-5{
     margin-top: 4%;
     margin-left: 15%;
     font-family: 'Courier New', Courier, monospace;
@@ -35,4 +35,8 @@
         background-position: right;
         height: 80vh;
      }
+     .myName{
+      background-position: right;
+        height: 80vh;
+   }
  }
