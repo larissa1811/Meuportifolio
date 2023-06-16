@@ -23,7 +23,7 @@
  }
  .progress{
     background-color: rgba(40, 1, 119, 0.878);
-    color: bisque;
+    color: rgb(255, 255, 255);
     height: 14%;
  }
 @media (max-width: 575.98px) { 
