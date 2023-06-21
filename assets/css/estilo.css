@@ -5,28 +5,34 @@
     background-repeat: no-repeat;
     height: 50vh;
 }
- .perfil{
-    border-radius: 50%;
-    border-color: white solid 0.5rem ;
-    height: 16rem;
-    width: 16rem;
+ .perfil-main{
+    border-radius: 7%;
+    border: white solid 0.5rem ;
+    height: 20rem; 
  }
  .myName{
     font-size: 300%;
     font-family: 'Courier New', Courier, monospace;
     color: beige;
+   margin-top: 10%;
  }
  .col-5{
-    margin-top: 4%;
-    margin-left: 15%;
+    margin-top: 113px;
+    font-family: 'Courier New', Courier, monospace;
+   background-color: rgba(197, 181, 228, 0.671);
+ }
+ .col-7{
+   margin-top: 190px;
     font-family: 'Courier New', Courier, monospace;
  }
+
  .progress{
     background-color: rgba(40, 1, 119, 0.878);
     color: rgb(255, 255, 255);
     height: 14%;
+    
  }
-@media (max-width: 575.98px) { 
+@media (min-width: 577px) and (max-width: 1200px){ 
     .banner{
         background-position: right;
         height: 100vh;
