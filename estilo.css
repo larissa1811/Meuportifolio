@@ -1,0 +1,75 @@
+/* Estilos padrões para todas as telas */ 
+@import url('https://fonts.googleapis.com/css23family=Poppins:ital,wght@0,100;0,200;0,500;1,100;1, 2008 display=swap ');
+
+:root{
+    --c1: #bad34a;
+    --c2: #bad34a;
+    --c3: #bad34a;
+  }
+
+body {
+    background-image: linear-gradient(82deg ,var(--c2) , var(--c3), var(--c1));
+    font-weight: 200; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner {
+    background: url(../img/Laranja.png);
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    height: 34vh;
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 40vh;
+    border: #fff solid 0.5rem;
+    filter: saturate(140%);
+    margin-top: 5vh;
+    margin-left: 20%;
+}
+
+.LARANJINHA{
+    background-color: rgb(255, 249, 240);
+}
+
+.FAIXAS{
+    background-color: rgb(94, 247, 247);
+}
+
+@media (max-width: 576px) {
+    .banner {
+        background-position: 125%;
+        height: 100vh;
+    }
+    .perfil {
+        margin-top: 2vh;
+    }
+}
+
+@media (max-width: 768px) { 
+    .nome {
+        margin-top: 3vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .perfil {
+        margin-top: 3vh;
+    }
+    .nome {
+        margin-top: 3vh;
+        text-align: center;
+        font-size: 34px;
+    }
+ }
+
+@media (max-width: 1200px) { 
+    .nome {
+        margin-top: 3vh;
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 1400px) { }

@@ -1,3 +1,14 @@
+:root{
+   --c1: rgba(197, 181, 228, 0.671);
+   --c2: rgba(197, 181, 228, 0.671);
+   --c3: rgba(197, 181, 228, 0.671);
+ }
+
+body {
+   background-image: linear-gradient(82deg ,var(--c2) , var(--c3), var(--c1));
+   font-weight: 200; 
+   
+}
 .banner{
     background: url('../img/fundonovo.gif');
     background-position: center;
@@ -5,34 +16,31 @@
     background-repeat: no-repeat;
     height: 50vh;
 }
- .perfil-main{
-    border-radius: 7%;
-    border: white solid 0.5rem ;
-    height: 20rem; 
+.perfil{
+   border-radius: 7%;
+   border: white solid 0.5rem ;
+   height: 20rem;
+   margin-top: 2vh;
+}
+ .alert{
+   margin-top: 24vh;
  }
  .myName{
     font-size: 300%;
     font-family: 'Courier New', Courier, monospace;
-    color: beige;
-   margin-top: 10%;
- }
- .col-5{
-    margin-top: 113px;
-    font-family: 'Courier New', Courier, monospace;
-   background-color: rgba(197, 181, 228, 0.671);
- }
- .col-7{
-   margin-top: 190px;
-    font-family: 'Courier New', Courier, monospace;
- }
-
- .progress{
-    background-color: rgba(40, 1, 119, 0.878);
     color: rgb(255, 255, 255);
-    height: 14%;
-    
  }
-@media (min-width: 577px) and (max-width: 1200px){ 
+ .col{
+    margin-top: 4%;
+    margin-left: 15%;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ .progress{
+    background-color: rgba(58, 17, 141, 0.878);
+    color: white;
+    height: 14%;
+ }
+@media (max-width: 575.98px) { 
     .banner{
         background-position: right;
         height: 100vh;
@@ -41,8 +49,4 @@
         background-position: right;
         height: 80vh;
      }
-     .myName{
-      background-position: right;
-        height: 80vh;
-   }
  }
